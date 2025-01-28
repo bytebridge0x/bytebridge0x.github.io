@@ -1,0 +1,42 @@
+
+              body {
+    background: linear-gradient(to bottom, #333333 20%, #FFFFFF 80%);
+    height: 120vh; 
+    margin: 0; 
+}                           
+
+        .moving-text {
+            position: fixed;
+            white-space: nowrap; /* Prevent text wrapping */
+            font-size: 24px; /* Font size */                      animation: moveText 30s linear infinite; /* Animation duration and type */
+        }
+                                                              @keyframes moveText {
+            0% {
+                transform: translateX(100%); /* Start off-screen to the left */                                         }
+            100% {
+                transform: translateX(-100vw); /* Move to the right off-screen */                                       }
+        }
+    @keyframes blink {
+    0% {
+        opacity: 1; /* Fully visible */
+    }
+    25% {
+        opacity: 1; /* Still fully visible */
+    }
+    50% {
+        opacity: 0; /* Invisible */
+    }
+    75% {
+        opacity: 1; /* Back to fully visible */
+    }
+    100% {
+        opacity: 1; /* Fully visible */
+    }
+}
+
+.blinking-div {
+    width: 100px; /* Width of the div */
+    height: 100px; /* Height of the div */
+    background-color: #3498db; /* Background color */
+    animation: blink 1.5s infinite; /* Apply the blink animation */
+}
