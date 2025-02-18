@@ -593,10 +593,13 @@ section h2 {
       body {
         margin: 1px;
           background: 
-                linear-gradient(to bottom, 
-                    #e8e5e8  20%, 
-                    #e8e5e8 20% 80%, 
-                    rgba(0, 0, 139, 0.7)  80%);
+                linear-gradient(to bottom,
+            #e8e5e8 20%,
+            #e8e5e8 80%),
+        url('images/i12.jpeg');
+    background-size: 100% 80%, 100% 20%;
+    background-position: top, bottom;
+    background-repeat: no-repeat;
 
       }
 
