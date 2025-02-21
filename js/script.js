@@ -19,7 +19,7 @@ function changeBackground() {
 }
 
 changeBackground();
-setInterval(changeBackground, 10000);
+setInterval(changeBackground, 20000);
 function toggleMenu() {
             const menu = document.getElementById('menu');
             const xMenu = document.getElementById('x-menu');
@@ -51,7 +51,7 @@ function toggleMenu() {
 const items = document.querySelectorAll('.items');
 const dotsContainer = document.getElementById('dotsContainer');
 let currentIndexCRSL = 0;
-const swipeInterval = 6000;
+const swipeInterval = 10000;
 let autoSwipe;
 
 items.forEach((items, index) => {
