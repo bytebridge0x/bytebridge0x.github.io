@@ -227,8 +227,6 @@
             position: absolute;
             width: 10px;
             height: 8px;
-            background-color: #ff00ff;
-            box-shadow: 0 0 10px #ff00ff, 0 0 20px #ff00ff, 0 0 30px #ff00ff;
             border-radius: 50%;
             animation: move 5s linear infinite;
         }
@@ -237,8 +235,6 @@
             position: absolute;
             width: 10px;
             height: 8px;
-            background-color: #ff00ff;
-            box-shadow: 0 0 5px #cc00cc, 0 0 10px #cc00cc, 0 0 15px #cc00cc;
             border-radius: 50%;
             animation: move2 5s linear infinite;
         }
