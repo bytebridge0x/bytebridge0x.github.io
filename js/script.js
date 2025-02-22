@@ -19,7 +19,7 @@ function changeBackground() {
 }
 
 changeBackground();
-setInterval(changeBackground, 20000);
+setInterval(changeBackground, 10000);
 function toggleMenu() {
             const menu = document.getElementById('menu');
             const xMenu = document.getElementById('x-menu');
